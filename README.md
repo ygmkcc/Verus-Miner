@@ -34,11 +34,3 @@ nano config.json
 ```
 CTRL + c
 ```
-# Tips & Tricks:
-- If Termux can't complete update & upgrade please clear app cache and data.
-- Disable battery manager, battery optimization for Termux app.
-- If you have a "protect battery" option to stop charge at 85% or similar enable it to help preserve battery health.
-- If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
-- Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
-- Use a pool with low latency to your location/internet.
-- Give the miner/stratum time to stabilize hashrate(~30m-1h).
