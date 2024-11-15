@@ -12,9 +12,9 @@ yes | pkg install libjansson wget nano
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/ygmkcc/pre-compiled/generic/ccminer
-wget https://raw.githubusercontent.com/ygmkcc/pre-compiled/generic/config.json
-wget https://raw.githubusercontent.com/ygmkcc/pre-compiled/generic/start.sh
+wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/ccminer
+wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/config.json
+wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
