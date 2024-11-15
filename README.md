@@ -26,11 +26,34 @@ chmod +x ccminer start.sh
 ```
 nano config.json
 ```
-2. Start ccminer with:
+2. Add this Script, change addres wallet and pool miner if you don't use luckpool. Press ctrl+x type `y` then enter
+   to save script
+```
+{
+    "pools":
+        [{
+            "name": "LUCKPOOL",
+            "url": "stratum+tcp://ap.luckpool.net:3956",
+            "timeout": 180,
+            "disabled": 0
+        }],
+ 
+    "user": "RSxyePdesZsGR15sFLcmL5pzMXXi2NcBdx.yournamephone",
+    "pass": "",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
+```
+3. Start ccminer with:
 ```
 ~/ccminer/start.sh
 ```
-3. Close ccminer with:
+4. Close ccminer with:
 ```
 CTRL + c
 ```
