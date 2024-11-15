@@ -41,7 +41,7 @@ nano config.json
             "disabled": 0
         }],
  
-    "user": "RSxyePdesZsGR15sFLcmL5pzMXXi2NcBdx.yournamephone",
+    "user": "yourwalletaddres.yournamephone",
     "pass": "",
     "algo": "verus",
     "threads": 8,
