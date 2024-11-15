@@ -4,11 +4,11 @@
 https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
 ```
 2. Get Termux ready:
-Copy and Paste on termux!
+Copy and Paste on termux! wait until the process is complete
 ```
 yes | pkg update && pkg upgrade
 ```
-3. Next Install
+3. Next Copy and Paste this
 ```
 yes | pkg install libjansson wget nano
 ```
