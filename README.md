@@ -4,12 +4,15 @@
 https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
 ```
 2. Get Termux ready:
-- Type `y` then enter key in any prompts!
+Copy and Paste on termux!
 ```
 yes | pkg update && pkg upgrade
+```
+3. Next Install
+```
 yes | pkg install libjansson wget nano
 ```
-3. Download ccminer, config, start:
+4. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/ygmkcc/Verus-Miner/generic/ccminer
